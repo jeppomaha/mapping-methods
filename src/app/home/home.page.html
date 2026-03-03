@@ -1,0 +1,54 @@
+<ion-header> <ion-toolbar> <ion-title>Marketplace</ion-title> </ion-toolbar> </ion-header> <ion-content
+  class="ion-padding"> <!-- Search Bar -->
+
+  <ion-searchbar placeholder="Search listings..."></ion-searchbar>
+
+  <!-- Category Grid --> <ion-grid> <ion-row>
+      <ion-col size="6">
+        <ion-card (click)="goToCategory('For Sale')">
+          <ion-card-content>
+            <div class="category-icon">🛍</div>
+            <h2>For Sale</h2>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card (click)="goToCategory('Housing')">
+          <ion-card-content>
+            <div class="category-icon">🏠</div>
+            <h2>Housing</h2>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card (click)="goToCategory('Jobs')">
+          <ion-card-content>
+            <div class="category-icon">💼</div>
+            <h2>Jobs</h2>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card (click)="goToCategory('Services')">
+          <ion-card-content>
+            <div class="category-icon">🛠</div>
+            <h2>Services</h2>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="12">
+        <ion-card (click)="goToCategory('Community')">
+          <ion-card-content>
+            <div class="category-icon">👥</div>
+            <h2>Community</h2>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "mapping-methods",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
